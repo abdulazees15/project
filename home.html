@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home- Shopping</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+			 <style>
+   @media only screen and (max-width: 480px){
+    .tab .nav-tabs > li{ width:100%; }
+</style>
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   <div class="navbar-header">
+      <a class="navbar-brand" href="#">	Shoppy Spot </a>
+    </div>
+    <ul class="nav navbar-nav">
+          
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Casual Wear</a></li>
+      <li><a href="#">Traditional</a></li>
+      <li><a href="#">Formals</a></li>
+      <li><a href="#">Accessories</a></li>
+      <li><a href="#">More</a></li>
+
+<li><a href="#">|</a></li>
+      			<li><a href="#">Sign In</a></li>
+   				<li><a href="#">Register</a></li>
+</ul>
+
+<div class="pull-right">
+<form class="navbar-form" action="/action_page.php">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search for products">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+</div>
+</nav><br><br><br>
+
+
+<!--Brands-->
+
+<section class="on-sale">
+<div class="container">
+ <div class="title-box">
+<h4> Brands You Love</h4>
+</div>
+ <div class="row">
+ 	<div class="col-md-3">
+ 		<img src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/6/4/8b2282ff-ac24-4b50-9164-473cf5ebb2e61559640007374-Promod_AHPMB_AR.jpg" height="250" width="280">
+ 	</div>
+ 	<div class="col-md-3">
+ 		<img src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/6/3/a4811f5a-92cd-4782-8737-e461814fe4091559564908814-Just-in-1--1-.jpg" height="250" width="280">
+ 	</div>
+ 	<div class="col-md-3">
+ 		<img src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/6/3/b4d6400c-29aa-401b-9da8-ded2c5c86d3c1559563317045-2.jpg" height="250" width="280">
+ 	</div>
+ 	<div class="col-md-3">
+ 		<img src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/6/4/31914f1d-cda4-436e-aaa0-b7b39dcc9ccc1559634873799-3f1fe893-102f-446e-bc1e-09ffc7c761ff1557904524587-ReeBok_AHPMB_BF.jpg" height="250" width="280">
+ 	</div>
+ </div>
+
+<!----Sale--->
+ <section class="on-sale">
+<div class="container">
+ <div class="title-box">
+<h4> Trends</h4>
+</div>
+ <div class="row">
+
+
+
+
+<!--Item 1---->
+<div class="col-md-3">
+<div class="product-top">
+<img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1997244/2017/9/6/11504686918599-Roadster-Men-Grey-Melange-Printed-Round-Neck-T-shirt-701504686918389-1.jpg">
+<div class="overlay-right">
+<button type="button" class="btn-secondary" title="Quick Shop">
+<i class="fa fa-eye"></i>
+</button>
+<div class="media-right">
+      <button class="btn btn-success" onclick="buyNow('i1',4999,'item1')"><span class="glyphicon glyphicon-shopping-cart"></span> BUY NOW</button>
+     <br/><br/><br/>
+  <button class="btn btn-primary" onclick="addToCart('i1',4999,'item1')"><span class="glyphicon glyphicon-shopping-cart"></span> ADD TO CART</button>
+   </div>
+</div>
+</div>
+ <div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<h3>Nafru</h3>
+<h4>Rs. 4,999/- </h4>
+ <p>Select Qty -> 1 X <input type="number" id="phone" min="1" value="1" class="text-center quantity_input_field"/></p>
+</div>
+</div>
+
+
+<!---Item2----->
+
+
+<div class="col-md-3">
+<div class="product-top">
+
+<img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7228316/2019/1/30/4d826b89-0119-4c89-8861-4a8cea8ed0691548844555754-DILLINGER-Men-Navy-Blue-Colourblocked-Round-Neck-T-shirt-161-1.jpg">
+<div class="overlay-right">
+<button type="button" class="btn-secondary" title="Quick Shop">
+<i class="fa fa-eye"></i>
+</button>
+<div class="media-right">
+      <button class="btn btn-success" onclick="buyNow('i2',2999,'item2')"><span class="glyphicon glyphicon-shopping-cart"></span> BUY NOW</button>
+     <br/><br/><br/>
+  <button class="btn btn-primary" onclick="addToCart('i2',2999,'item2')"><span class="glyphicon glyphicon-shopping-cart"></span> ADD TO CART</button>
+   </div>
+</div>
+</div>
+ <div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<h3>Thapso</h3>
+<h4>Rs. 2,999/- </h4>
+ <p>Select Qty -> 1 X <input type="number" id="phone" min="1" value="1" class="text-center quantity_input_field"/></p>
+</div>
+</div>
+<!--Item 3---->
+
+<div class="col-md-3">
+<div class="product-top">
+<img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2221320/2017/11/23/11511442645053-Moda-Rapido-Men-Black-Solid-Round-Neck-T-shirt-1511511442644939-1.jpg">
+<div class="overlay-right">
+<button type="button" class="btn-secondary" title="Quick Shop">
+<i class="fa fa-eye"></i>
+</button>
+<div class="media-right">
+      <button class="btn btn-success" onclick="buyNow('i3',1999,'item3')"><span class="glyphicon glyphicon-shopping-cart"></span> BUY NOW</button>
+     <br/><br/><br/>
+  <button class="btn btn-primary" onclick="addToCart('i3',1999,'item3')"><span class="glyphicon glyphicon-shopping-cart"></span> ADD TO CART</button>
+   </div>
+</div>
+</div>
+ <div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<h3>Ash</h3>
+<h4>Rs. 1,999/- </h4>
+ <p>Select Qty -> 1 X <input type="number" id="phone" min="1" value="1" class="text-center quantity_input_field"/></p>
+</div>
+</div>
+
+
+<!--Item 4---->
+
+<div class="col-md-3">
+<div class="product-top">
+<img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2339311/2018/4/11/11523440670120-WROGN-Men-Brown--Black-Striped-Round-Neck-T-shirt-7831523440669855-1.jpg">
+<div class="overlay-right">
+<button type="button" class="btn-secondary" title="Quick Shop">
+<i class="fa fa-eye"></i>
+</button>
+<div class="media-right">
+      <button class="btn btn-success" onclick="buyNow('i5',2499,'item5')"><span class="glyphicon glyphicon-shopping-cart"></span> BUY NOW</button>
+     <br/><br/><br/>
+  <button class="btn btn-primary" onclick="addToCart('i5',2499,'item5')"><span class="glyphicon glyphicon-shopping-cart"></span> ADD TO CART</button>
+   </div>
+</div>
+</div>
+ <div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<h3>Safro</h3>
+<h4>Rs. 2,499/- </h4>
+ <p>Select Qty -> 1 X <input type="number" id="phone" min="1" value="1" class="text-center quantity_input_field"/></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="row">
+	<!--Item 5---->
+
+<div class="col-md-3">
+<div class="product-top">
+<img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2297835/2018/3/14/11521020286596-Roadster-Men-Tshirts-4241521020286395-1.jpg">
+<div class="overlay-right">
+<button type="button" class="btn-secondary" title="Quick Shop">
+<i class="fa fa-eye"></i>
+</button>
+<div class="media-right">
+      <button class="btn btn-success" onclick="buyNow('i6',3999,'item6')"><span class="glyphicon glyphicon-shopping-cart"></span> BUY NOW</button>
+     <br/><br/><br/>
+  <button class="btn btn-primary" onclick="addToCart('i6',3999,'item6')"><span class="glyphicon glyphicon-shopping-cart"></span> ADD TO CART</button>
+   </div>
+</div>
+</div>
+ <div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<h3>Afro</h3>
+<h4>Rs. 3,999/- </h4>
+ <p>Select Qty -> 1 X <input type="number" id="phone" min="1" value="1" class="text-center quantity_input_field"/></p>
+</div>
+</div>
+
+
+
+
+
+<!--Item  6-->
+<div class="col-md-3">
+<div class="product-top">
+<img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1353004/2018/9/18/a8acac3a-077a-400f-a1c7-519215a5265e1537251707732-Roadster-Men-Blue-Denim-Washed-Casual-Shirt-5281537251705552-1.jpg">
+<div class="overlay-right">
+<button type="button" class="btn-secondary" title="Quick Shop">
+<i class="fa fa-eye"></i>
+</button>
+<div class="media-right">
+      <button class="btn btn-success" onclick="buyNow('i7',4999,'item7')"><span class="glyphicon glyphicon-shopping-cart"></span> BUY NOW</button>
+     <br/><br/><br/>
+  <button class="btn btn-primary" onclick="addToCart('i7',4999,'item7')"><span class="glyphicon glyphicon-shopping-cart"></span> ADD TO CART</button>
+   </div>
+</div>
+</div>
+ <div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<h3>Sajo</h3>
+<h4>Rs-4,999/- </h4>
+ <p>Select Qty -> 1 X <input type="number" id="phone" min="1" value="1" class="text-center quantity_input_field"/></p>
+</div>
+</div>
+
+
+<!--Item 7---->
+<div class="col-md-3">
+<div class="product-top">
+<img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1823142/2017/4/27/11493281526215-WROGN-Men-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-5201493281525914-1.jpg">
+<div class="overlay-right">
+<button type="button" class="btn-secondary" title="Quick Shop">
+<i class="fa fa-eye"></i>
+</button>
+<div class="media-right">
+      <button class="btn btn-success" onclick="buyNow('i8',3999,'item8')"><span class="glyphicon glyphicon-shopping-cart"></span> BUY NOW</button>
+     <br/><br/><br/>
+  <button class="btn btn-primary" onclick="addToCart('i8',3999,'item8')"><span class="glyphicon glyphicon-shopping-cart"></span> ADD TO CART</button>
+   </div>
+</div>
+</div>
+ <div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<h3>Pavit</h3>
+<h4>Rs. 3,999/- </h4>
+ <p>Select Qty -> 1 X <input type="number" id="phone" min="1" value="1" class="text-center quantity_input_field"/></p>
+</div>
+</div>
+
+
+
+
+<!--Item 8---->
+
+<div class="col-md-3">
+<div class="product-top">
+<img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7425041/2018/10/24/4a7a9ba4-beaa-403d-8194-38f268bda03e1540369826422-HERENOW-Men-Mustard-Regular-Fit-Solid-Casual-Shirt-3681540369826253-1.jpg">
+<div class="overlay-right">
+<button type="button" class="btn-secondary" title="Quick Shop">
+<i class="fa fa-eye"></i>
+</button>
+<div class="media-right">
+      <button class="btn btn-success" onclick="buyNow('i9',2999,'item9')"><span class="glyphicon glyphicon-shopping-cart"></span> BUY NOW</button>
+     <br/><br/><br/>
+  <button class="btn btn-primary" onclick="addToCart('i9',2999,'item9')"><span class="glyphicon glyphicon-shopping-cart"></span> ADD TO CART</button>
+   </div>
+</div>
+</div>
+ <div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<h3>Naru</h3>
+<h4>Rs. 2,999/- </h4>
+ <p>Select Qty -> 1 X <input type="number" id="phone" min="1" value="1" class="text-center quantity_input_field"/></p>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--list ends-->
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+<!-----Footer----->
+<footer class="section footer-classic bg-image" style="background: black;">
+	<div class="row">
+					<div class="span2">
+						<h4>Navigation</h4>
+						<ul class="nav">
+							<li><a href="./index.html">Homepage</a></li>  
+							<li><a href="./about.html">About Us</a></li>
+							<li><a href="./contact.html">Contac Us</a></li>
+							<li><a href="./cart.html">Your Cart</a></li>
+							<li><a href="./register.html">Login</a></li>							
+						</ul>					
+					</div>
+</div>
+</footer>
+
+
+
+ <script>
+function openmenu()
+{
+document.getElementById("side-menu").style.display="block";
+document.getElementById("menu-btn").style.display="none";
+document.getElementById("close-btn").style.display="block";
+}
+ function closemenu()
+{
+document.getElementById("side-menu").style.display="none";
+document.getElementById("menu-btn").style.display="block";
+document.getElementById("close-btn").style.display="none";
+}
+
+function addToCart(id_inp,price,name)
+{
+    if(list_item_selected.length!=0)
+        {
+            let flag = false;
+            for(let i=0;i<list_item_selected.length;i++)
+                {
+                    if(list_item_selected[i][2].includes(name))
+                    {
+                        list_item_selected[i] = [document.getElementById(id_inp).value,price,name];
+                        flag = true;
+                    }
+                }
+                if(flag==false)
+                {
+                    list_item_selected.push([document.getElementById(id_inp).value,price,name]);
+                }
+        }
+        else
+        {
+            list_item_selected.push([document.getElementById(id_inp).value,price,name]);
+        }
+        document.getElementById("addcart_badge").innerHTML = list_item_selected.length;
+}
+function buynow(id_inp,price,name)
+{
+    list_item_selected = [];
+    list_item_selected.length = 0;
+    list_item_selected.push([document.getElementById(id_inp).value,price,name]);
+    document.getElementById("alertPage").style.display = "block";
+    document.getElementById("payments").style.display = "block";
+    document.getElementById("invoice").style.display = "none";
+}
+function OpencartFunction(){
+if(list_item_selected.length!=0)
+    {
+        document.getElementById("btn_buy_cart_list").style.display = "block";
+    }
+    text = "<ul>";
+    list_item_selected.forEach(PrintItems);
+    text += "</ul>";
+    document.getElementById("data_cart_list").innerHTML = text;
+    function PrintItems(value) {
+    text += "<li>" + value[2] + " | ( <b>QTY</b> -> "+ value[0] +" ) | ( <b>TotalPrice</b> -> "+ value[1]*value[0] +"$ ) </li>";
+} 
+}
+</script>
+
+</body>
+</html>
